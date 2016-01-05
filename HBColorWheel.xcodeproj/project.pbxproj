@@ -12,6 +12,9 @@
 		9CD940BE1C3B65E70000A5ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD940BC1C3B65E70000A5ED /* Main.storyboard */; };
 		9CD940C01C3B65E70000A5ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD940BF1C3B65E70000A5ED /* Assets.xcassets */; };
 		9CD940C31C3B65E70000A5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CD940C11C3B65E70000A5ED /* LaunchScreen.storyboard */; };
+		9CD940D11C3B671F0000A5ED /* HBColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD940D01C3B671F0000A5ED /* HBColorWheel.swift */; };
+		9CD940DB1C3B67C40000A5ED /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD940DA1C3B67C40000A5ED /* ColorWheel.swift */; };
+		9CD940DF1C3B6DFB0000A5ED /* ColorUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD940DE1C3B6DFB0000A5ED /* ColorUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9CD940BF1C3B65E70000A5ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD940C21C3B65E70000A5ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CD940C41C3B65E70000A5ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CD940D01C3B671F0000A5ED /* HBColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBColorWheel.swift; sourceTree = "<group>"; };
+		9CD940DA1C3B67C40000A5ED /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		9CD940DE1C3B6DFB0000A5ED /* ColorUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		9CD940B71C3B65E70000A5ED /* HBColorWheel */ = {
 			isa = PBXGroup;
 			children = (
+				9CD940CF1C3B66FD0000A5ED /* HBColorWheel */,
 				9CD940B81C3B65E70000A5ED /* AppDelegate.swift */,
 				9CD940BA1C3B65E70000A5ED /* ViewController.swift */,
 				9CD940BC1C3B65E70000A5ED /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				9CD940C41C3B65E70000A5ED /* Info.plist */,
 			);
 			path = HBColorWheel;
+			sourceTree = "<group>";
+		};
+		9CD940CF1C3B66FD0000A5ED /* HBColorWheel */ = {
+			isa = PBXGroup;
+			children = (
+				9CD940D01C3B671F0000A5ED /* HBColorWheel.swift */,
+				9CD940DA1C3B67C40000A5ED /* ColorWheel.swift */,
+				9CD940DE1C3B6DFB0000A5ED /* ColorUtilities.swift */,
+			);
+			name = HBColorWheel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD940D11C3B671F0000A5ED /* HBColorWheel.swift in Sources */,
 				9CD940BB1C3B65E70000A5ED /* ViewController.swift in Sources */,
 				9CD940B91C3B65E70000A5ED /* AppDelegate.swift in Sources */,
+				9CD940DF1C3B6DFB0000A5ED /* ColorUtilities.swift in Sources */,
+				9CD940DB1C3B67C40000A5ED /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
